@@ -3,7 +3,7 @@ type Props = {
         id:string;
         name:string;
         img:string
-    }
+    }[]
 }
 const UserItem = ({ users }:Props)=>{
     return(
